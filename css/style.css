@@ -1,0 +1,110 @@
+@import url(/css/fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat";
+    background: #151515;
+    color: #fff ;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: 0;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto; 
+    padding: 0 15px;
+}
+
+.nav {
+    background: #282828;
+    padding: 6px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav__content {
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu {
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+    color: #fff;
+}
+
+.logo__img {
+     width: 100%;
+}
+
+.menu__link {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.service {
+    display: flex;
+    margin-left: auto;
+}
+
+.service__link {
+    margin-left: 25px;
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+.header__content {
+    height: 700px;
+    background: url(/img/Header-bg.jpg) no-repeat center / cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header__title {
+    font-size: 100px;
+    line-height: 75px;
+    color: #fff;
+    font-family: "ProstoOne";
+    margin-bottom: 38px; 
+}
+
+.header__link {
+    background: #FFFFFF;
+    padding: 13px 14px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #171718;
+    border-radius: 10px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+     
+}
+
+.header__icon {
+    font-size: 16px;
+    margin-left: 11px;
+}
