@@ -35,6 +35,11 @@ ul {
     z-index: 10;
 }
 
+.nav__static {
+    position: static;
+    padding: 81px 0;
+}
+
 .nav__content {
     display: flex;
     align-items: center;
@@ -43,6 +48,11 @@ ul {
 
 .menu {
     display: flex;
+}
+
+.menu_ml {
+    margin-left: 339px;
+     
 }
 
 .logo {
@@ -70,7 +80,10 @@ ul {
     margin-left: 25px;
     color: #fff;
     font-size: 20px;
-    
+}
+
+.service__link_fz {
+    font-size: 62px;
 }
 
 .header__content {
@@ -217,4 +230,8 @@ ul {
     font-weight: 700;
     width: 161px;
     display: inline-block;
+}
+
+.nav__static {
+    position: static;
 }
